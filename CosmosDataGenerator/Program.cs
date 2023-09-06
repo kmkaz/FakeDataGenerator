@@ -18,8 +18,7 @@ class Program
     static DateTime now = DateTime.Now;
     static DateTime weekAgo = DateTime.Now.AddDays(-7);
     static int maxBatchSizeMongo = 500;
-    static int maxBatchSizeCosmos = 500;
-
+    
     static async Task Main(string[] args)
     {
         var config = new ConfigurationBuilder()
